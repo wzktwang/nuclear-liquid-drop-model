@@ -77,7 +77,7 @@ def getError(model, data):
 	return (x, y)
 
 # data
-file = "C:/Users/Peter/Dropbox/Programming/Python/binding-energy/binding.txt"
+file = "binding.txt"
 data = getData(file)
 xData, yData = getBindingEnergyPerNucleon(data)
 
